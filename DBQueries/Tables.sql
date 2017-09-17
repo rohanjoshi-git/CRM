@@ -71,6 +71,8 @@ ALTER TABLE Product
 GO
 
 
+ CREATE INDEX IX_tblCustomer_FirstName ON Customer (FirstName)
+
 
 sp_Helpindex "Order"
 
